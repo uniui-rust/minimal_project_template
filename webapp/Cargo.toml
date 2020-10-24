@@ -1,0 +1,16 @@
+[package]
+name="webapp"
+version="0.0.1"
+edition = "2018"
+
+build = "build/script.rs"
+
+[dependencies]
+async-std = "1"
+tide = "0.14"
+
+[build-dependencies]
+uniui_build = "0.0.8"
+sitemap = { path = "../sitemap" }
+main_page = { path = "../main_page" }
+

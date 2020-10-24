@@ -1,0 +1,14 @@
+[package]
+name="main_page"
+version="0.0.1"
+edition="2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+uniui_gui = "0.0.8"
+uniui_widget_button = "0.0.1"
+
+

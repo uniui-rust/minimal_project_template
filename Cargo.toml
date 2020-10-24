@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"sitemap",
+	"main_page",
+	"webapp",
+]
